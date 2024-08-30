@@ -1,0 +1,76 @@
+.home-section {
+    background-color: #597590; /* Dark background color */
+    color: #fffbfb00; /* Black font color */
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.home-section h2 {
+    font-size: 2.5em; /* Larger font size for emphasis */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif; /* Serif font for headings */
+    color: #fff; /* Light color for headings to stand out against dark background */
+}
+
+.home-section h3 {
+    font-size: 2em; /* Font size for subheadings */
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif; /* Serif font for subheadings */
+    color: #ccc; /* Lighter gray for subheadings to contrast with dark background */
+}
+
+.home-section p {
+    font-size: 1.2em; /* Font size for body text */
+    line-height: 1.6;
+    color: #f7f1f1; /* Black color for body text */
+}
+
+.interactive-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker background for better contrast */
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add shadow for depth */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #e9e3e3; /* Black color for gallery item text */
+}
+
+.button {
+    background-color: #ff5722; /* Button background color */
+    border: none;
+    color: #fff; /* Button text color */
+    padding: 15px 30px; /* Padding to increase size */
+    font-size: 1.2em; /* Font size for readability */
+    font-weight: bold; /* Bold text for emphasis */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: 'Verdana', sans-serif; /* Font for button text */
+    margin: 20px 0; /* Space around the button */
+}
+
+.button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
